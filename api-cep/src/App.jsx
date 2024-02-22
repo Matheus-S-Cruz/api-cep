@@ -34,15 +34,15 @@ function App() {
 
         <div className='endereco'>
           {endereco ?(<>
-              <p>{(endereco.logradouro)}</p>
-              <p>{endereco.complemento}</p>
-              <p>{endereco.bairro}</p>
-              <p>{endereco.localidade}</p>
-              <p>{endereco.uf}</p>
-              <p>{endereco.ibge}</p>
-              <p>{endereco.gia}</p>
-              <p>{endereco.ddd}</p>
-              <p>{endereco.siafi}</p>
+              <p>Logradouro: {(endereco.logradouro)}</p>
+              <p>Complemento: {endereco.complemento}</p>
+              <p>Bairro: {endereco.bairro}</p>
+              <p>Localidade: {endereco.localidade}</p>
+              <p>UF: {endereco.uf}</p>
+              <p>IBGE: {endereco.ibge}</p>
+              <p>Gia: {endereco.gia}</p>
+              <p>DDD: {endereco.ddd}</p>
+              <p>Siafi: {endereco.siafi}</p>
           </>): null}
         </div>
       </div>
